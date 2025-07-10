@@ -1,0 +1,8 @@
+/Users/jxmartii/Desktop/FULLSTACK/MICROSERVICIOS/MICROSERVICIOS MARTINA/logistica-servicio/src/main/java/com/logistica/logistica_servicio/LogisticaServicioApplication.java
+/Users/jxmartii/Desktop/FULLSTACK/MICROSERVICIOS/MICROSERVICIOS MARTINA/logistica-servicio/src/main/java/com/logistica/logistica_servicio/configuracion/RestTemplateConfig.java
+/Users/jxmartii/Desktop/FULLSTACK/MICROSERVICIOS/MICROSERVICIOS MARTINA/logistica-servicio/src/main/java/com/logistica/logistica_servicio/controlador/LogisticaControlador.java
+/Users/jxmartii/Desktop/FULLSTACK/MICROSERVICIOS/MICROSERVICIOS MARTINA/logistica-servicio/src/main/java/com/logistica/logistica_servicio/entidades/Logistica.java
+/Users/jxmartii/Desktop/FULLSTACK/MICROSERVICIOS/MICROSERVICIOS MARTINA/logistica-servicio/src/main/java/com/logistica/logistica_servicio/modelo/Pedido.java
+/Users/jxmartii/Desktop/FULLSTACK/MICROSERVICIOS/MICROSERVICIOS MARTINA/logistica-servicio/src/main/java/com/logistica/logistica_servicio/modelo/Usuario.java
+/Users/jxmartii/Desktop/FULLSTACK/MICROSERVICIOS/MICROSERVICIOS MARTINA/logistica-servicio/src/main/java/com/logistica/logistica_servicio/repositorio/LogisticaRepositorio.java
+/Users/jxmartii/Desktop/FULLSTACK/MICROSERVICIOS/MICROSERVICIOS MARTINA/logistica-servicio/src/main/java/com/logistica/logistica_servicio/servicio/LogisticaServicio.java

@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: com.logistica.logistica_servicio.LogisticaControladorTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.595 s <<< FAILURE! -- in com.logistica.logistica_servicio.LogisticaControladorTest
+com.logistica.logistica_servicio.LogisticaControladorTest.listarTodos -- Time elapsed: 0.023 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.logistica.logistica_servicio.repositorio.LogisticaRepositorio.findAll()" because "this.logisticaRepositorio" is null
+	at com.logistica.logistica_servicio.LogisticaControladorTest.listarTodos(LogisticaControladorTest.java:33)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+com.logistica.logistica_servicio.LogisticaControladorTest.actualizar -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.logistica.logistica_servicio.repositorio.LogisticaRepositorio.findById(Object)" because "this.logisticaRepositorio" is null
+	at com.logistica.logistica_servicio.LogisticaControladorTest.actualizar(LogisticaControladorTest.java:65)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+com.logistica.logistica_servicio.LogisticaControladorTest.eliminar -- Time elapsed: 0.548 s <<< ERROR!
+org.mockito.exceptions.misusing.NullInsteadOfMockException: 
+
+Argument passed to when() is null!
+Example of correct stubbing:
+    doThrow(new RuntimeException()).when(mock).someMethod();
+Also, if you use @Mock annotation don't miss openMocks()
+	at com.logistica.logistica_servicio.LogisticaControladorTest.eliminar(LogisticaControladorTest.java:77)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+com.logistica.logistica_servicio.LogisticaControladorTest.guardar -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.logistica.logistica_servicio.repositorio.LogisticaRepositorio.save(Object)" because "this.logisticaRepositorio" is null
+	at com.logistica.logistica_servicio.LogisticaControladorTest.guardar(LogisticaControladorTest.java:54)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+com.logistica.logistica_servicio.LogisticaControladorTest.buscarPorId -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.logistica.logistica_servicio.repositorio.LogisticaRepositorio.findById(Object)" because "this.logisticaRepositorio" is null
+	at com.logistica.logistica_servicio.LogisticaControladorTest.buscarPorId(LogisticaControladorTest.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
